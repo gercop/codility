@@ -82,8 +82,10 @@ public class T002_binario2decimal {
 		try {
 			return String.valueOf(inteiro);	
 		} catch (Exception e) {
+			
 			JOptionPane.showMessageDialog(null,e.getMessage());
 			return "";
+			
 		}
 		
 	}
@@ -91,13 +93,13 @@ public class T002_binario2decimal {
 	public static void main(String[] args) {
 		
 		/* Rodar através do terminal: codility > src > condificacao_testes > Txx_xxx > show in local terminal
-		 * Linha de comando de exemplo: java T002_binario2decimal.java "11" "0001101" 
+		 * Linha de comando de exemplo: java src\codificacao_testes\T002_binario2decimal.java "11" "0001101" 
 		 * */
 		for (int i = 0; i < args.length; i++)
 			if ( parametro_valido(args[i]) ) {
-				System.out.println("Binário "  
+				System.out.println("BINÁRIO "  
 								   + formatar(args[i],tamSBinario) 
-								   + " para decimal: "  
+								   + " para DECIMAL: "  
 								   + formatar(inteiro2string(binario2decimal(args[i])),tamSDecimal) 
 								   + " - Qtde de passos: " 
 								   + nropassos_binario2decimal(args[i]));

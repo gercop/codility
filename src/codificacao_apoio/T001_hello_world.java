@@ -1,4 +1,4 @@
-package codificacao_testes;
+package codificacao_apoio;
 
 public class T001_hello_world {
 

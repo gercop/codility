@@ -2,7 +2,7 @@ package codificacao_testes;
 
 import javax.swing.JOptionPane;
 
-public class T002_binario2decimal {
+public class T001_binario2decimal {
 	
 	private final static int tamSBinario = 10;
 	private final static int tamSDecimal = 6;

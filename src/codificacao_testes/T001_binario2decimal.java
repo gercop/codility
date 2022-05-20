@@ -95,6 +95,15 @@ public class T001_binario2decimal {
 		/* Rodar através do terminal: codility > src > condificacao_testes > Txx_xxx > show in local terminal
 		 * Linha de comando de exemplo: java T002_binario2decimal.java "11" "0001101" 
 		 * */
+		if (args.length == 0) {
+			args = new String[5];
+			args[0] = new String("1100110");
+			args[1] = new String("1010110");
+			args[2] = new String("1001110");
+			args[3] = new String("0100110");
+			args[4] = new String("1000110");			
+		}
+		
 		for (int i = 0; i < args.length; i++)
 			if ( parametro_valido(args[i]) ) {
 				System.out.println("BINÁRIO "  

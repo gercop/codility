@@ -7,6 +7,7 @@ public class Node {
 	private int valor;
 	
 	public Node(int valor) {
+		
 		this.valor = valor;
 	}
 	
@@ -40,6 +41,7 @@ public class Node {
 	}
 	
 	public Node removeValorMinimoDaArvore(Node node) {
+		
 		if (node == null) {
 			System.out.println("  ERRO ");
 		} else if (node.esquerda != null) {
@@ -52,27 +54,30 @@ public class Node {
 		return null;
 	}
 	
-	public void prefixado(Node node) {
+	public void preFixado(Node node) {
+		
 		if (node != null) {
-			System.out.print(node.valor + " ");
-			prefixado(node.esquerda);
-			prefixado(node.direita);
+			System.out.print(String.format("|%4d ", node.valor));
+			preFixado(node.esquerda);
+			preFixado(node.direita);
 		}
 	}	
 	
-	public void posfixado(Node node) {
+	public void posFixado(Node node) {
+		
 		if (node != null) {
-			posfixado(node.esquerda);
-			posfixado(node.direita);
-			System.out.print(node.valor + " ");
+			posFixado(node.esquerda);
+			posFixado(node.direita);
+			System.out.print(String.format("|%4d ", node.valor));
 		}
 	}
 	
-	public void emordem(Node node) {
+	public void emOrdem(Node node) {
+		
 		if (node != null) {
-			emordem(node.esquerda);
-			System.out.print(node.valor + " ");
-			emordem(node.direita);
+			emOrdem(node.esquerda);
+			System.out.print(String.format("|%4d ", node.valor));
+			emOrdem(node.direita);
 		}
 	}
 	
@@ -89,10 +94,10 @@ public class Node {
 		root.inserir(root, 13);
 		
 		System.out.print("\nListagem Pré-fixado: ");
-		root.prefixado(root);
+		root.preFixado(root);
 		System.out.print("\nListagem Pós-fixado: ");
-		root.posfixado(root);
-		System.out.print("\nListagem em -fixado: ");
-		root.emordem(root);
+		root.posFixado(root);
+		System.out.print("\nListagem   Em ordem: ");
+		root.emOrdem(root);
 	}
 }

@@ -1,4 +1,4 @@
-package codificao_topico_heranca;
+package codificacao_topico_20_heranca;
 
 public class B  extends A {
 	private String value;

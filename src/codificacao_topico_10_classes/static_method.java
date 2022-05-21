@@ -1,4 +1,4 @@
-package codificacao_topico_classes;
+package codificacao_topico_10_classes;
 
 public class static_method {
 

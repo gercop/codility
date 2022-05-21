@@ -1,6 +1,6 @@
-package codificacao_topicos;
+package codificacao_topico_01_geral;
 
-import codificao_topico_heranca.A;
+import codificacao_topico_20_heranca.A;
 
 public class objects_equals_V1 {
 

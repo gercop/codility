@@ -1,4 +1,4 @@
-package codificacao_topicos;
+package codificacao_topico_01_geral;
 
 public class atributo_final {
 

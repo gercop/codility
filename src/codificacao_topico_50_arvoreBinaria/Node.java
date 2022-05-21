@@ -1,4 +1,4 @@
-package codificacao_topico_arvoreBinaria;
+package codificacao_topico_50_arvoreBinaria;
 
 public class Node {
 	

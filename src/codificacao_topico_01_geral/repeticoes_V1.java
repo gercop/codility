@@ -1,12 +1,14 @@
-package codificacao_topicos;
+package codificacao_topico_01_geral;
 
 public class repeticoes_V1 {
 	
 	public static void main(String[] args) {
+		
 		int count = 0;
 		for (int i = 0;;) {
 			int n = 0;
 			for (;;) {
+				System.out.println(n);
 				if (n++ > i) {
 					count += n;
 					break;
@@ -19,7 +21,4 @@ public class repeticoes_V1 {
 		
 		System.out.println(count);
 	}
-	
-	
-
 }

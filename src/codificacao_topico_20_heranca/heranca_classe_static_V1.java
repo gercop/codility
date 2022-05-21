@@ -1,4 +1,4 @@
-package codificao_topico_heranca;
+package codificacao_topico_20_heranca;
 
 public class heranca_classe_static_V1 {
 

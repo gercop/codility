@@ -1,4 +1,4 @@
-package codificao_topico_heranca;
+package codificacao_topico_20_heranca;
 
 //Classe com mais de 6 construtores:
 public class C {

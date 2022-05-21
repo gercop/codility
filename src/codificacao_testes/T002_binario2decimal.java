@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class T002_binario2decimal {
 	
 	private final static int tamSBinario = 10;
-	private final static int tamSDecimal = 6;
+	private final static int tamSDecimal = 06;
 
 	private static int fator(char c) {
 		if (c == '0')

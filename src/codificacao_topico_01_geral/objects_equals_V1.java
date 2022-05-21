@@ -1,14 +1,14 @@
 package codificacao_topico_01_geral;
 
-import codificacao_topico_20_heranca.A;
+import codificacao_apoio.Pai;
 
 public class objects_equals_V1 {
 
 	public static void main(String[] args) {
 
 		System.out.print("Neste caso temos a mesma instância: ");
-		A a1 = new A("Teste 1");		
-		A a2 = new A("Teste 1");
+		Pai a1 = new Pai("Teste 1");		
+		Pai a2 = new Pai("Teste 1");
 		
 		if ( a1.equals(a2) ) {
 			System.out.println("São iguais: ");

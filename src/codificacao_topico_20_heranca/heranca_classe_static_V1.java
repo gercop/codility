@@ -2,31 +2,38 @@ package codificacao_topico_20_heranca;
 
 public class heranca_classe_static_V1 {
 
-	static class A {
+	static class Pai {
 		
-		protected String a;
+		protected String nome;
 		
-		public A(String a) {
-			this.a = a;
+		public Pai(String nome) {
+			this.nome = nome;
 		}
 	}
 	
-	static class B extends A {
-		protected String a; //Se vc tirar esse protected ele passa a usar a variável "a" da classe A
-		protected String b;
+	static class Filho extends Pai {
+		protected String nome; //Se vc tirar esse protected ele passa a usar a variável "nome" da classe Pai
+		protected String descricao;
 		
-		public B(String b) {
-			super(b);
-			this.b = b;
+		public Filho(String descricao) {
+			super(descricao);
+			this.descricao = descricao;
+		}
+
+		public Filho(String nome, String descricao) {
+			super(nome);
+			this.nome = nome;
+			this.descricao = descricao;
 		}
 		
-		void  print() {
-			System.out.println(b+a);
+		void print() {
+			System.out.println(nome+" - "+descricao);
 		}
 	}	
 	
 	public static void main(String[] args) {
-		new B("b").print();
+		new Filho("Engenheiro Físico de 45 anos").print();
+		new Filho("Ricardo","Engenheiro Físico de 45 anos").print();
 	}
 	
 

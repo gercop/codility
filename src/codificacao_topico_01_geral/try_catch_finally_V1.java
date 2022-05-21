@@ -4,12 +4,12 @@ public class try_catch_finally_V1 {
 
 	public static void main(String[] args) {
 		try {
-			System.out.print("Start");
-			throw new Exception("abc");	
+			System.out.print("Eu");
+			throw new Exception(" não");	
 		} catch (Exception e) {
-			System.out.print("Middle");
+			System.out.print(" gosto");
 		} finally {
-			System.out.print("End");
+			System.out.print(" de Vegetais");
 		}
 	}
 

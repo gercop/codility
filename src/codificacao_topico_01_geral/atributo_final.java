@@ -6,7 +6,7 @@ public class atributo_final {
 	
 	public static void main(String[] args) {
 		try {
-			//valor = 13;
+			//valor = 13; //Propriedade com atributo final não pode ser alterado!
 			System.out.println(valor);
 			
 		} catch (Exception e) {

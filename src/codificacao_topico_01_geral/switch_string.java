@@ -3,19 +3,19 @@ package codificacao_topico_01_geral;
 public class switch_string {
 	
 	public static void main(String[] args) {
-		String abc = "a";
+		String key = "1";
 		
-		switch (abc) {
-		case "a": 
-			System.out.print("a"); //Não foi colocado o break aqui			
-		case "b": 
-			System.out.print("b");
+		switch (key) {
+		case "1": 
+			System.out.print("1"); //Não foi colocado o break aqui			
+		case "2": 
+			System.out.print("2");
 			break;
-		case "c": 
-			System.out.print("c");
+		case "3": 
+			System.out.print("3");
 			break; //Sem esse break aqui o default é executado também!
 		default:
-			System.out.print("not found");
+			System.out.print("default");
 		}
 	}
 

@@ -1,7 +1,6 @@
-package codificacao_topico_20_heranca;
+package codificacao_apoio;
 
-//Classe com mais de 6 construtores:
-public class C {
+public class Cliente {
 	
 	public String nome;
 	public int idade;
@@ -11,7 +10,7 @@ public class C {
 	public String telefone;
 	public String email;
 	
-	public C() {
+	public Cliente() {
 		this.nome = "";
 		this.idade = 0;
 		this.endereco = "";
@@ -21,7 +20,7 @@ public class C {
 		this.email = "";
 	}
 	
-	public C(String nome) {
+	public Cliente(String nome) {
 		this.nome = nome;
 		this.idade = 0;
 		this.endereco = "";
@@ -31,7 +30,7 @@ public class C {
 		this.email = "";
 	}
 	
-	public C(String nome, int idade) {
+	public Cliente(String nome, int idade) {
 		super();
 		this.nome = nome;
 		this.idade = idade;		
@@ -42,7 +41,7 @@ public class C {
 		this.email = "";
 	}
 	
-	public C(String nome, int idade, String endereco) {
+	public Cliente(String nome, int idade, String endereco) {
 		super();
 		this.nome = nome;
 		this.idade = idade;
@@ -53,7 +52,7 @@ public class C {
 		this.email = "";
 	}	
 
-	public C(String nome, int idade, String endereco, String cep) {
+	public Cliente(String nome, int idade, String endereco, String cep) {
 		super();
 		this.nome = nome;
 		this.idade = idade;
@@ -64,7 +63,7 @@ public class C {
 		this.email = "";
 	}
 	
-	public C(String nome, int idade, String endereco, String cep, String cpf) {
+	public Cliente(String nome, int idade, String endereco, String cep, String cpf) {
 		super();
 		this.nome = nome;
 		this.idade = idade;
@@ -75,7 +74,7 @@ public class C {
 		this.email = "";
 	}
 	
-	public C(String nome, int idade, String endereco, String cep, String cpf, String telefone) {
+	public Cliente(String nome, int idade, String endereco, String cep, String cpf, String telefone) {
 		super();
 		this.nome = nome;
 		this.idade = idade;
@@ -86,7 +85,7 @@ public class C {
 		this.email = "";
 	}	
 
-	public C(String nome, int idade, String endereco, String cep, String cpf, String telefone, String email) {
+	public Cliente(String nome, int idade, String endereco, String cep, String cpf, String telefone, String email) {
 		super();
 		this.nome = nome;
 		this.idade = idade;

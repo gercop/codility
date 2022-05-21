@@ -13,6 +13,7 @@ public class heranca_classe_static_V2 {
 	
 	//Maiores detalhes: http://www.mauda.com.br/?p=1670
 	static class Filho extends Pai {
+		
 		protected String nome; 
 		protected String descricao;
 		
@@ -29,6 +30,7 @@ public class heranca_classe_static_V2 {
 	}
 
 	public static void main(String[] args) {
+		
 		new Filho("Engenheiro Físico").print();
 	}
 }

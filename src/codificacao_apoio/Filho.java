@@ -4,8 +4,8 @@ public class Filho  extends Pai {
 	private String nome;
 
 	public Filho() {
-		this.nome = "Classe Filho";
-		this.descricao = "Descrição Classe Filho";
+		this.nome = null;
+		this.descricao = null;
 	}
 
 	public Filho(String nome) {

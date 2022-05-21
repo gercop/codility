@@ -12,6 +12,7 @@ public class heranca_classe_static_V1 {
 	}
 	
 	static class Filho extends Pai {
+		
 		protected String nome; //Se vc tirar esse protected ele passa a usar a variável "nome" da classe Pai
 		protected String descricao;
 		
@@ -32,6 +33,7 @@ public class heranca_classe_static_V1 {
 	}	
 	
 	public static void main(String[] args) {
+		
 		new Filho("Engenheiro Físico de 45 anos").print();
 		new Filho("Ricardo","Engenheiro Físico de 45 anos").print();
 	}

@@ -7,7 +7,7 @@ public class static_class {
 	}
 	
 	private static void set(Pojo pojo) {
-		int b = ++pojo.value; //a variável b é irrelevante neste caso.
+		int b = ++pojo.value; //a variável "b" é irrelevante neste caso.
 		b++;
 	}
 

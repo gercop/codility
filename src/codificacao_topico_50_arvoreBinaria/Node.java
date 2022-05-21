@@ -7,10 +7,12 @@ public class Node {
 	private int value;
 	
 	public int getValue() {
+		
 		return value;
 	}
 
 	public void setValue(int value) {
+		
 		this.value = value;
 	}
 
@@ -102,6 +104,7 @@ public class Node {
 	}
 	
 	public int countLeaf(Node node) {
+		
 		if (node == null)
 			return 0;
 		if (node.left == null && node.right == null)

@@ -50,12 +50,12 @@ public class Node {
 		}
 	}
 	
-	public Node removevalueMinimoDaArvore(Node node) {
+	public Node removeValueMin(Node node) {
 		
 		if (node == null) {
 			System.out.println("  ERRO ");
 		} else if (node.left != null) {
-			node.left = removevalueMinimoDaArvore(node.left);
+			node.left = removeValueMin(node.left);
 			return node;
 		} else {
 			// Se não tiver elemento leftuerdo só nos resta o da right

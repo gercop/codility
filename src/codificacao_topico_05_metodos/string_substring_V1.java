@@ -1,6 +1,6 @@
 package codificacao_topico_05_metodos;
 
-public class string_substring {
+public class string_substring_V1 {
 
 	public static void main(String[] args) {
 		

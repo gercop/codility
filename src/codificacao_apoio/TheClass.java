@@ -9,6 +9,7 @@ public class TheClass {
 	}
 
 	public int getX() {
+		
 		return x;
 	}
 }

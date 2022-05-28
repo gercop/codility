@@ -5,10 +5,12 @@ public class Pai {
 	protected String descricao;
 	
 	public Pai() {
+		
 		this.descricao = null;
 	}
 
 	public Pai(String descricao) {
+		
 		this.descricao = descricao;
 	}
 

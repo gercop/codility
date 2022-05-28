@@ -1,6 +1,7 @@
 package codificacao_apoio;
 
 public class Filho  extends Pai {
+	
 	private String nome;
 
 	public Filho() {

@@ -10,7 +10,8 @@ public class Cliente {
 	public String telefone;
 	public String email;
 	
-	public Cliente() {
+	public Cliente() { 
+		
 		this.nome = "";
 		this.idade = 0;
 		this.endereco = "";

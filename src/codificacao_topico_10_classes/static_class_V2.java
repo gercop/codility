@@ -1,6 +1,6 @@
 package codificacao_topico_10_classes;
 
-public class static_class {
+public class static_class_V2 {
 	
 	static class Pojo {
 		public int value;

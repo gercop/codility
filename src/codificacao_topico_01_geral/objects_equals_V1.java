@@ -6,7 +6,7 @@ public class objects_equals_V1 {
 
 	public static void main(String[] args) {
 
-		System.out.print("Neste caso temos a mesma instância: ");
+		System.out.print("Neste caso temos os mesmos dados em instâncias diferentes: ");
 		Pai a1 = new Pai("Teste 1");		
 		Pai a2 = new Pai("Teste 1");
 		
@@ -20,7 +20,7 @@ public class objects_equals_V1 {
 			System.out.println("Objeto 2: " + a2);
 		}
 		
-		System.out.print("\nNeste caso temos a mesma classe: ");
+		System.out.print("\nNeste caso temos a mesma instância: ");
 		if ( a1.equals(a1) ) {
 			System.out.println("São iguais: ");
 			System.out.println("Objeto 1: " + a1);

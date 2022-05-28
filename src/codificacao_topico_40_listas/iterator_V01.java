@@ -13,7 +13,7 @@ public class iterator_V01 {
 		
 		Iterator<String> it = list.iterator();
 		while (it.hasNext()) {
-			System.out.println(it.next());
+			System.out.println(it.next());			
 		}
 	}
 }

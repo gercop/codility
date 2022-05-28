@@ -5,7 +5,12 @@ import java.util.List;
 
 public class arraylist_V01 {
 	
+	/*
+	 * Q55. Why are ArrayLists better than arrays?
+	 * You don't have to decide the size of an ArrayList when you first make it.
+	 */
 	public static void main(String[] args) {
+		
 		List<Boolean> list = new ArrayList<Boolean>();
 		list.add(true);
 		list.add(Boolean.parseBoolean("false"));

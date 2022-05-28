@@ -1,6 +1,6 @@
 package codificacao_topico_01_geral;
 
-public class atributo_final {
+public class final_V1 {
 
 	public static final int valor = 12;
 	

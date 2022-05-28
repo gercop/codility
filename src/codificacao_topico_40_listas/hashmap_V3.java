@@ -19,5 +19,7 @@ public class hashmap_V3 {
 		System.out.println(filhos.stream().map(Filho::getNome).collect(Collectors.toList()) );
 
 	}
+	
+	
 
 }

@@ -8,6 +8,7 @@ public class T002_binario2decimal {
 	private final static int tamSDecimal = 06;
 
 	private static int fator(char c) {
+		
 		if (c == '0')
 			return 0;
 		else

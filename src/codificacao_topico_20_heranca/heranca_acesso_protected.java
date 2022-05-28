@@ -8,7 +8,6 @@ public class heranca_acesso_protected {
 		
 		Filho filho = new Filho("Ricardo","Engenheiro Físico de 45 anos");		
 		System.out.println(filho.getNome() + " - " + filho.getDescricao());
-
 	}
 
 }

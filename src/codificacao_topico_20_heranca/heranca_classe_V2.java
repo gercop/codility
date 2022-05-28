@@ -2,6 +2,7 @@ package codificacao_topico_20_heranca;
 
 class Main {
 	Object message(){
+		
 		return "Hello!";
 	}	
 }
@@ -9,6 +10,7 @@ class Main {
 class Auxiliar extends Main {
 	@Override
  	String message(){ 		
+		
  		return "World!";
  	}
 }

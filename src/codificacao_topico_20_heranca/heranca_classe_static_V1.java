@@ -7,6 +7,7 @@ public class heranca_classe_static_V1 {
 		protected String nome;
 		
 		public Pai(String nome) {
+			
 			this.nome = nome;
 		}
 	}

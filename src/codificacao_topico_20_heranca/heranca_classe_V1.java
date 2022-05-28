@@ -11,7 +11,6 @@ public class heranca_classe_V1 extends MainClass {
 	public static void main(String[] args) {		
 		
 		System.out.println(new MainClass().message());
-
 	}
 }
 

@@ -6,7 +6,7 @@ import java.util.List;
 
 public class iterator_V01 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 	
 		String[] array = {"abc", "2", "10", "0"};
 		List<String> list = Arrays.asList(array);

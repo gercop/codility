@@ -19,5 +19,4 @@ public class arraylist_V01 {
 		System.out.print(list.size());
 		System.out.print(list.get(1) instanceof Boolean);
 	}
-
 }

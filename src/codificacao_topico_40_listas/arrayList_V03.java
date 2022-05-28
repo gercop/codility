@@ -30,5 +30,4 @@ public class arrayList_V03 {
 		System.out.println(words5);
 		
 	}
-
 }

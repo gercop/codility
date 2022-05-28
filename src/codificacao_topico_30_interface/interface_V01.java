@@ -6,12 +6,15 @@ interface One {
 	public abstract String getDescricao();
 	
     default void method() {
+    	
         System.out.println("One");
     }
 }
 
 interface Two {
+	
     default void method () {
+    	
         System.out.println("Two");
     }
 }

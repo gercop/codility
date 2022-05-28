@@ -25,7 +25,7 @@ public class Node {
 		
 		if (node != null) {
 			// Verifica se o value a ser inserido é menor que o nodo corrente da árvore, se
-			// sim vai para subárvore left
+			// sim vai para subárvore left 
 			if (value < node.value) {
 				// Se tiver elemento no nodo leftuerdo continua a busca
 				if (node.left != null) {

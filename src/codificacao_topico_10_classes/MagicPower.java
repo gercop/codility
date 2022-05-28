@@ -27,8 +27,7 @@ public class MagicPower {
 		MagicPower.castStaticSpell("Expelliarmus!");
 		
 		new MagicPower().castSpell();
-	}
-	
+	}	
 	
 
 }

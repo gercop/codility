@@ -5,6 +5,7 @@ public class Duck {
 private String name;
 	
 	Duck () {
+		
 		this.name = "";
 	}
 	

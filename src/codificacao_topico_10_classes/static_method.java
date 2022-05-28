@@ -3,6 +3,7 @@ package codificacao_topico_10_classes;
 public class static_method {
 
 	private static void set(int a) {
+		
 		int b = ++a;  //a variável "b" é irrelevante neste caso e o método set também não gera nenhuma alteração!
 		b++;
 	}

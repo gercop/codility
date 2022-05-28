@@ -1,4 +1,4 @@
-package codificao_topico_45_recursao;
+package codificacao_topico_45_recursao;
 
 public class recursao_V01 {
 

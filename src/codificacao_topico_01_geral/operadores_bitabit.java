@@ -30,7 +30,6 @@ public class operadores_bitabit {
 		//A saída é igual a 0 se as entradas forem iguais. A saída é igual a 1 se as entradas não forem iguais, se uma delas diferirem das outras.
 		if (op < 4) {
 			System.out.println("Operador bit a bit OU exclusivo");
-		}
-		
+		}		
 	}
 }

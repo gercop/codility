@@ -3,6 +3,7 @@ package codificacao_topico_01_geral;
 public class switch_string {
 	
 	public static void main(String[] args) {
+		
 		String key = "1";
 		
 		switch (key) {

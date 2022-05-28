@@ -6,5 +6,4 @@ public class variavel_primitiva_conversao {
 		
 		System.out.println(Integer.parseInt("21"));
 	}
-
 }

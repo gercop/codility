@@ -12,7 +12,6 @@ public class instanceOf {
         
         System.out.print(list.get(0) instanceof Object);
         System.out.print(list.get(1) instanceof Integer);
-
 	}
 
 }

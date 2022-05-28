@@ -11,7 +11,5 @@ public class variavel_primitiva_int {
 		
 		//int b = 12345123451; //The literal 12345123451 of type int is out of range		
 		//System.out.println(b);
-
 	}
-
 }

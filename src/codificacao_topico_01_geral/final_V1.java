@@ -6,7 +6,7 @@ public class final_V1 {
 	
 	public static void main(String[] args) {
 		
-		//valor = 13; //Propriedade com atributo final não pode ser alterado!
+		//valor = 13; Propriedade com atributo final não pode ser alterado!
 		System.out.println(valor);		
 	}
 

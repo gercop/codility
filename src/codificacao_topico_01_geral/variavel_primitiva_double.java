@@ -16,5 +16,4 @@ public class variavel_primitiva_double {
 		* 	the compiler to treat this value as a float, that 'F' is used.
 		* */
 	}
-
 }

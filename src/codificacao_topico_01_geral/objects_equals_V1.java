@@ -30,7 +30,6 @@ public class objects_equals_V1 {
 			System.out.println("Objeto 1: " + a1);
 			System.out.println("Objeto 1: " + a1);
 		}
-
 	}
 
 }

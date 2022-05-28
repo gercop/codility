@@ -2,7 +2,7 @@ package codificacao_topico_01_geral;
 
 public class repeticoes_V1 {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		
 		int count = 0;
 		for (int i = 0;;) {

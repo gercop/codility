@@ -9,5 +9,4 @@ public class import_class {
 		System.out.println(PI);		
 		System.out.println(Math.pow(PI, 2));
 	}
-
 }

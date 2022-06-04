@@ -1,6 +1,7 @@
 package codificacao_topico_20_heranca;
 
 class MainClass {
+	
   final String message(){
       return "Hello!";
   }

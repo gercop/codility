@@ -12,6 +12,13 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Main.print();
+		
+		String a = "bikini";
+		String b = "bikini";
+		String c = "bikini";
+
+		System.out.println(a == b);
+		System.out.println(b == c);
 	}
 
 }

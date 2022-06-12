@@ -32,11 +32,11 @@ public class hashmap_V2 {
 	    pantry.values().stream().forEach(System.out::println);
 	    
 	    System.out.println();
-	    pantry.forEach( (fruta,codigo) -> System.out.println(fruta + " -> " + codigo) );
+	    pantry.forEach( (fruta, codigo) -> System.out.println(fruta + " -> " + codigo) );
 	    
 	    pantry.put("Bananas", 45);
 	    System.out.println();
-	    pantry.forEach( (fruta,codigo) -> System.out.println(fruta + " -> " + codigo) );	    
+	    pantry.forEach( (fruta, codigo) -> System.out.println(fruta + " -> " + codigo) );	    
 	    
 	    System.out.println("\nTamanho da lista: " + pantry.size());
 	}

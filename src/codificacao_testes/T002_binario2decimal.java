@@ -105,6 +105,7 @@ public class T002_binario2decimal {
 			args[4] = new String("1000110");			
 		}
 		
+		
 		for (int i = 0; i < args.length; i++)
 			if ( parametro_valido(args[i]) ) {
 				System.out.println("BINÁRIO "  

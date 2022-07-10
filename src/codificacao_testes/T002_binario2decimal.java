@@ -94,7 +94,7 @@ public class T002_binario2decimal {
 	public static void main(String[] args) {
 		
 		/* Rodar através do terminal: codility > src > condificacao_testes > Txx_xxx > show in local terminal
-		 * Linha de comando de exemplo: java T002_binario2decimal.java "11" "0001101" 
+		 * Linha de comando de exemplo: java src\codificacao_testes\T002_binario2decimal.java "11" "0001101" 
 		 * */
 		if (args.length == 0) {
 			args = new String[5];

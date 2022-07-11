@@ -20,7 +20,7 @@ public class T001_hello_world {
 		
 		System.out.println( "Hello World!!!" );
 		
-		//Outra forma mais arrojada de usar o interface
+		//Outra forma mais arrojada de usar uma interface
 		Interface1.print(); 
 		Interface2.print();
 	}

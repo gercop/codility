@@ -15,7 +15,7 @@ public class T003_palindromos {
         int tam = S.length();
         StringBuilder newString = new StringBuilder(S);    
 
-        if ( (tam >= 1) && (tam<=100) ) {           
+        if ( (tam >= 1) && (tam <= 100) ) {           
 
             for (int i=0; i<tam; i++) {
                 if (!ehValido(S.charAt(i))) {                                    
@@ -23,7 +23,7 @@ public class T003_palindromos {
                 }
             }
 
-            for (int i=0; i<tam;i++) {
+            for (int i=0; i<tam; i++) {
                 if ( S.charAt(i) == '?' ) {                
                 	if (S.charAt(tam-i-1) != '?')
                 		newString.setCharAt(i,S.charAt(tam-i-1));

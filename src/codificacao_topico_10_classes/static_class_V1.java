@@ -23,6 +23,7 @@ public class static_class_V1 {
 	}
 
 	public static void main(String[] args) {		
+		
 		System.out.println( TaxCalculator2002.calculate(50) );
 		System.out.println( TaxCalculator2010.calculate(50) );
 		System.out.println( TaxCalculator2022.calculate(50) );

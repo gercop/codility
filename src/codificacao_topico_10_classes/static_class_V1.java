@@ -9,7 +9,7 @@ class TaxCalculator2002 {
 
 public class static_class_V1 {
 	
-	class TaxCalculator2010 {
+	static class TaxCalculator2010 {
 		
 		static double calculate (double total) {
 			return total * .08;
